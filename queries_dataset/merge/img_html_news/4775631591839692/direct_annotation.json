@@ -1,0 +1,99 @@
+{
+  "images_with_captions": [
+    {
+      "img_link": "https://www.huaxia.com/upload/resources/image/2022/06/01/309489_800x20000.jpeg",
+      "page_link": "https://www.huaxia.com/c/2022/06/01/1173969.shtml",
+      "domain": "www.huaxia.com",
+      "snippet": "四川芦山宝兴地震：地震已致宝兴1死6伤 救援工作正紧张进行- 社会综合 ...",
+      "image_path": "img_html_news/23325.jpg",
+      "html_path": "img_html_news/23325.html",
+      "page_title": "四川芦山宝兴地震：地震已致宝兴1死6伤 救援工作正紧张进行 - 社会综合 - 华夏经纬网",
+      "caption": {
+        "alt_node": "四川芦山宝兴地震：地震已致宝兴1死6伤救援工作正紧张进行"
+      }
+    }
+  ],
+  "images_with_no_captions": [
+    {
+      "img_link": "https://pbs.twimg.com/media/FUKmRKwWYAE2pdT?format=jpg&name=large",
+      "page_link": "https://twitter.com/ian24195794/status/1532024514413854720",
+      "domain": "twitter.com",
+      "snippet": "大老师（没有去旅游的旅人） on Twitter: \"@sanyuz_sg ...",
+      "image_path": "img_html_news/23322.jpg",
+      "html_path": "img_html_news/23322.html",
+      "page_title": "大老师（没有去旅游的旅人） on Twitter: \"@sanyuz_sg ..."
+    },
+    {
+      "img_link": "https://www.uschinapress.com/image/2022-06-01/981677349274005504.jpeg",
+      "page_link": "https://www.uschinapress.com/static/content/SH/2022-06-01/981677337664172032.html",
+      "domain": "www.uschinapress.com",
+      "snippet": "雅安地震已致4死14伤超2万户用电受影响-侨报网",
+      "image_path": "img_html_news/23323.jpg",
+      "html_path": "img_html_news/23323.html",
+      "page_title": "雅安地震已致4死14伤 超2万户用电受影响-侨报网"
+    },
+    {
+      "img_link": "https://pbs.twimg.com/media/FUKmRKwWYAE2pdT.jpg",
+      "page_link": "https://twitter.com/ian24195794/status/1532024514413854720",
+      "domain": "twitter.com",
+      "snippet": "大老师（没有去旅游的旅人） on Twitter: \"@sanyuz_sg ...",
+      "image_path": "img_html_news/23324.jpg",
+      "html_path": "img_html_news/23324.html",
+      "page_title": "大老师（没有去旅游的旅人） on Twitter: \"@sanyuz_sg ..."
+    },
+    {
+      "img_link": "https://n.sinaimg.cn/spider20220601/290/w1080h810/20220601/1063-e4f2a6a0358a9836ed25e173a39aaa1f.jpg",
+      "page_link": "https://finance.sina.com.cn/jjxw/2022-06-01/doc-imizirau6075156.shtml",
+      "domain": "finance.sina.com.cn",
+      "snippet": "封面新闻记者直击震后宝兴县城：启用三个安置点|雅安市_新浪财经_新浪网",
+      "image_path": "img_html_news/23326.jpg",
+      "html_path": "img_html_news/23326.html",
+      "page_title": "封面新闻记者直击震后宝兴县城：启用三个安置点|雅安市_新浪财经_新浪网"
+    },
+    {
+      "img_link": "https://p1.itc.cn/q_70/images03/20220601/12db2dbfea3c4fe1ab78594c780437d1.jpeg",
+      "page_link": "http://www.sohu.com/a/553277243_123753",
+      "domain": "www.sohu.com",
+      "snippet": "雅安地震已致4人遇难_四川学生遇地震全班1秒钟避险_芦山6.1级地震为 ...",
+      "image_path": "img_html_news/23327.jpg",
+      "html_path": "img_html_news/23327.html",
+      "page_title": "雅安地震已致4人遇难_四川学生遇地震全班1秒钟避险_芦山6.1级地震为2013年地震余震_雅安地震已致1人遇难"
+    },
+    {
+      "img_link": "https://p6.itc.cn/q_70/images03/20220601/61fd1ed270c9482e9bc83aa669533cda.gif",
+      "page_link": "http://www.sohu.com/a/553289113_163278",
+      "domain": "www.sohu.com",
+      "snippet": "已造成1死6伤！四川雅安地震救援最新情况——_四川学生遇地震全班1秒钟避 ...",
+      "image_path": "img_html_news/23328.jpg",
+      "html_path": "img_html_news/23328.html",
+      "page_title": "已造成1死6伤！四川雅安地震救援最新情况——_四川学生遇地震全班1秒钟避险_雅安地震已致1人遇难_四川雅安6.1级地震 多地震感强烈"
+    },
+    {
+      "img_link": "https://p4.itc.cn/q_70/images03/20220601/dff7dbfea3014cee9a023e37653a0825.jpeg",
+      "page_link": "http://www.sohu.com/a/553307635_121119256",
+      "domain": "www.sohu.com",
+      "snippet": "雅安地震已致4人遇难_四川学生遇地震全班1秒钟避险_芦山6.1级地震为 ...",
+      "image_path": "img_html_news/23329.jpg",
+      "html_path": "img_html_news/23329.html",
+      "page_title": "雅安地震已致4人遇难_四川学生遇地震全班1秒钟避险_芦山6.1级地震为2013年地震余震_雅安地震已致1人遇难"
+    },
+    {
+      "img_link": "https://ww2.sinaimg.cn/mw600/008fiYA3ly1h2sy5gtfm5j30rs0jkn24.jpg",
+      "page_link": "https://gongyi.weibo.com/242731?luicode=20000061&lfid=4776025181393900",
+      "domain": "gongyi.weibo.com",
+      "image_path": "img_html_news/23330.jpg",
+      "html_path": "img_html_news/23330.html",
+      "page_title": "https://ww2.sinaimg.cn/mw600/008fiYA3ly1h2sy5gtfm5..."
+    },
+    {
+      "img_link": "https://imgcdn.scol.com.cn/NEWS_3AF2DC03C8E2B020122CDEAC540DFC48.JPG",
+      "page_link": "https://sichuan.scol.com.cn/ggxw/202206/58533406.html",
+      "domain": "sichuan.scol.com.cn",
+      "snippet": "四川雅安市芦山县发生6.1级地震，直击当地最新情况（滚动更新）_四川在线",
+      "image_path": "img_html_news/23331.jpg",
+      "html_path": "img_html_news/23331.html",
+      "page_title": "四川雅安市芦山县发生6.1级地震，直击当地最新情况（滚动更新）_四川在线"
+    }
+  ],
+  "images_with_caption_matched_tags": []
+}

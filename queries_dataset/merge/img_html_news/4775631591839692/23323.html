@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv=Content-Type>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--<link rel="shortcut icon" href="images/logo@3x.png" type="image/x-icon"/>-->
+    <link rel="stylesheet" href="/web/resource/libs/css/common.css">
+    <!--<link rel="stylesheet" href="/web/resource/libs/css/swiper.min.css">-->
+    <link rel="stylesheet" href="/web/resource/libs/css/swiper5.min.css">
+    <link rel="stylesheet" href="/web/resource/css/base.css">
+    <link rel="stylesheet" href="/web/resource/css/newsContent.css">
+    <script src="/web/resource/libs/js/jquery-1.11.0.min.js"></script>
+    <script src="/web/resource/libs/js/swiper5.min.js"></script>
+    <script src="/web/resource/libs/js/chinese.js"></script>
+    <script src="/web/resource/libs/js/commonurl.js"></script>
+    <!--<script src="/web/resource/libs/js/advert_index.js"></script>-->
+    <script src="/web/resource/js/JS/jquery.cookie.js"></script>
+    <script src="/web/resource/js/JS/time.js"></script>
+   <script src="/web/resource/libs/js/jquery.share.min.js"></script>
+    <link rel="stylesheet" href="/web/resource/libs/css/share.min.css">
+    <title>雅安地震已致4死14伤 超2万户用电受影响-侨报网</title>
+    <script>
+        $(function () {
+            var urlpart = urlstr();
+            var ch_en = $.cookie("zh_choose");
+            if(ch_en == "s"){
+                $(".switch label.left").addClass("on").parent().find(".right").removeClass("on");
+            }
+            if(ch_en == "n"){
+                $(".switch label.left").addClass("on").parent().find(".right").removeClass("on");
+            }
+            if(ch_en == "t"){
+                $(".switch label.right").addClass("on").parent().find(".left").removeClass("on");
+            }
+            $("#column").load(urlpart+"681494180467445760.html",function () {
+                if(ch_en == "s"){
+                    zh_tran('s');
+                }
+                if(ch_en == "n"){
+                    zh_tran('s');
+                }
+                if(ch_en == "t"){
+                    zh_tran('t');
+                }
+            });
+            $("#columnwap").load(urlpart+"681520203925950464.html",function () {
+                if(ch_en == "s"){
+                    zh_tran('s');
+                }
+                if(ch_en == "n"){
+                    zh_tran('s');
+                }
+                if(ch_en == "t"){
+                    zh_tran('t');
+                }
+            });
+            $("#recenthot").load(urlpart+"905754011087810560.html",function () {
+                if(ch_en == "s"){
+                    zh_tran('s');
+                }
+                if(ch_en == "n"){
+                    zh_tran('s');
+                }
+                if(ch_en == "t"){
+                    zh_tran('t');
+                }
+            });
+        })
+    </script>
+    <style>
+        #citys p,#citys{
+            display: inline;
+        }
+        .nav a span{
+            color: #fff;
+        }
+        .advertisement{
+            width: 100%;
+        }
+        .advertisement img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="commonHead">
+    <!--头部 电脑版-->
+    <div class="header">
+        <!--logo-->
+        <div class="w1200">
+            <div class="logo">
+                <img src="/web/resource/images/logo@3x.png" alt="">
+            </div>
+        </div>
+        <!--地区部分分类-->
+        <div class="header_top">
+            <div class="w1200">
+                <ul class="adress right po_relative">
+                    <li class="left">
+                        <img src="/web/resource/images/location.png" alt="" class="location mg10px">
+                        <div id="citys">
+
+                        </div>
+
+                    </li>
+                    <li class="right_li">
+                        <!--繁简转换开关-->
+                        <p class="switch left" id="switch">
+                            <label  onclick="zh_tran('s');" for="jian" class="left on"><input checked type="radio" class="swich_radio" id="jian" name="switch">简体</label>
+                            <label  onclick="zh_tran('t');" for="fan" class="right"><input type="radio" class="swich_radio" id="fan" name="switch">繁体</label>
+                        </p>
+                        <p class="fs12px right">
+                            <span class="">[美国东部]</span>
+                            <span class="localDate current_time"></span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--时政分类-->
+        <div class="header_bottom">
+            <div class="w1200">
+                <ul class="nav_bar right">
+                    <li class="left" id="column">
+
+                    </li>
+
+                    <li class="right po_relative search">
+                        <button class="submit_btn" id="submit_btn">
+                            <img src="/web/resource/images/search_white.png" alt="">
+                        </button>
+                        <input type="text" placeholder="站内搜索" class="znss" id="submit_input">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--头部手机版-->
+    <div class="header_wap">
+        <!--头部地址-->
+        <div class="adress_wap">
+            <img src="/web/resource/images/location.png" alt="" class="location">
+            <div id="citywap">
+
+            </div>
+
+        </div>
+        <!--侨报网和搜索-->
+        <div class="bg_wap clearfix">
+            <img src="/web/resource/images/logo@3x.png" alt="" class="bg_img_wap left">
+            <div class="right right_li">
+                <!--繁简转换开关-->
+                <p class="switch" id="switchwap">
+                    <label  onclick="zh_tran('s');" for="jianwap" class="left on"><input checked type="radio" class="swich_radio" id="jianwap" name="switch">简体</label>
+                    <label  onclick="zh_tran('t');" for="fanwap" class="right"><input type="radio" class="swich_radio" id="fanwap" name="switch">繁体</label>
+                </p>
+                <p class="sou_wap po_relative">
+                    <button class="submit_btn" id="submit_btnwap">
+                        <img src="/web/resource/images/search_white.png" alt="">
+                    </button>
+                    <input type="text" placeholder="搜索" class="znss" id="submit_inputwap">
+                </p>
+            </div>
+        </div>
+        <!--栏目列表-->
+        <ul class="column clearfix" id="columnwap">
+
+        </ul>
+    </div>
+</div>
+<!--内容部分-->
+<div class="newscontent w1200 mg10px">
+    <!--广告-->
+    <!--<div id="div_adv_" class="advertisement">
+        &lt;!&ndash;放common底下的adv.html&ndash;&gt;
+    </div>-->
+    <!--内容部分开始-->
+    <div class="clearfix contentwrap mg10px">
+        <!--左侧内容-->
+        <div id="content" class="left articlerelated">
+            <!--放common底下的content.html-->
+            <div class="source">
+                <span>侨报网</span>
+                <span>></span>
+                <span><a href="https://www.uschinapress.com/web/SH/index.html">中国</a></span>
+            </div>
+            <!--文章标题-->
+            <div class="content_title" id="981677337664172032">雅安地震已致4死14伤 超2万户用电受影响</div>
+            <!--文章信息-->
+            <ul class="clearfix information">
+                <li class="left time">
+                    <span>时间:</span>
+                    <span class="articletime">1654091716074</span>
+                </li>
+                
+                    <li class="left res">
+                        <span>来源:</span>
+                        <span>侨报网综合</span>
+                    </li>
+                
+                
+                    <li class="left author">
+                        <span>编辑:</span>
+                        <span>江塔</span>
+                    </li>
+                
+                
+            </ul>
+            <!--正文内容-->
+            <div class="contentbody mg10px">
+                <!--<th:block th:if="${contentEditor != ''}">
+                    <div class="writer">
+                        <span>文</span>
+                        <span>/</span>
+                        <span th:text="${contentEditor}"></span>
+                    </div>
+                </th:block>-->
+                <!-- 图文稿件 -->
+                
+                    <div class="graphicArticle"><p style="text-indent:2em;">【侨报网综合讯】北京时间6月1日17时00分，四川雅安市芦山县发生6.1级地震，震源深度17公里。17时03分，雅安市宝兴县发生4.5级地震，震源深度18公里。据通报，目前地震已造成4死14伤，均在宝兴县。</p><p style="text-align:center;"><img src="https://www.uschinapress.com/image/2022-06-01/981677349274005504.jpeg" style="display:block;margin:10px auto;"/></p><p style="text-indent:2em; text-align:center;">地震后汽车受损。（图片来源：《北京日报》）</p><p style="text-indent:2em;"></p><p style="text-indent:2em;"></p><p style="text-indent:2em;"><b>地震已致4死 均系被飞石砸中</b></p><p style="text-indent:2em;">综合大陆央视、中新网1日报道，四川雅安市抗震救灾指挥部表示，地震造成芦山县、宝兴县部分乡镇受灾，目前，雅安全市范围接报4死14伤（均在宝兴县），受伤人员已转市、县医院救治。据雅安市委办公室消息，死亡的4人均是被飞石砸中。</p><p style="text-indent:2em;">此外，地震还导致芦山县、宝兴县部分地区通讯不畅，经过紧急抢修，目前芦山县和宝兴县主干光缆全部恢复，其他中断光缆线路正在抢通中。</p><p style="text-indent:2em;">此前消息显示，地震后共造成8座35千伏变电站失压，1条110千伏输电线路、4条35千伏线路和3条10千伏线路跳闸，影响2.38万户用电。</p><p style="text-indent:2em;">此外，当地国省干线G351、S308（宝兴县境内）有断道点，正在组织抢通。其他路段还在组织力量排查。</p><p style="text-indent:2em;">目前，雅安市抗震救灾指挥部已调集救援力量4500余人。地震发生后，中国国务院抗震救灾指挥部办公室、应急管理部已启动国家地震应急三级响应。</p><p style="text-indent:2em;">中国自然资源部则表示，据初步统计，震中20千米范围内共有196处地质灾害隐患。</p><p style="text-indent:2em;">四川省地质灾害指挥部办公室指，预计未来24小时，芦山、宝兴发生地质灾害风险较高。</p><p style="text-indent:2em;"><b>系2013年7.0级地震余震</b></p><p style="text-indent:2em;">此次地震中，出现三分钟震两次的情况，且同在雅安，它们有关系吗？对此，四川地震台高级工程师张致伟表示，宝兴4.5级地震为芦山6.1级地震的余震。</p><p style="text-indent:2em;">而据专家综合分析研究，此次芦山6.1级地震则属2013年“4·20”7.0级地震余震，两次地震相距9公里，发震断裂为双石-大川断裂带。</p><p style="text-indent:2em;">截至2022年06月01日19时，震区共记录到M3.0级及以上余震1次，其中6.0-6.9级地震0次，5.0-5.9级地震0次，4.0-4.9级地震1次，3.0-3.9级地震0次，最大地震为17时03分发生的4.5级地震。（完）</p></div>
+                
+                <!-- 图集稿件 -->
+                
+
+                
+                
+               
+
+
+            </div>
+            <!--分享-->
+            <div class="bdsharebuttonbox sharearti mgt30" id="sharearti" data-tag="share_1">
+                <span>分享到:</span>
+              <div style="display: inline-block;" class="social-share" data-sites="facebook, twitter,linkedin,weibo,wechat"></div>
+            
+            </div>
+
+        </div>
+        <!--右侧内容-->
+        <div id="articleabout">
+            <div class="right articleabout">
+                <div class="xgwz">
+                    <!--相关文章-->
+                    <p class="nyxw">
+                        <img src="/web/resource/images/title.png" alt="" class="nyxw_img">
+                        <span class="nyxw_span">相关文章</span>
+                    </p>
+                    <!--列表-->
+                    <ul class="new_list mg10px">
+                        
+                    </ul>
+                </div>
+                <div class="jqrm">
+                    <!--近期热门-->
+                    <p class="nyxw mgt30">
+                        <img src="/web/resource/images/title.png" alt="" class="nyxw_img">
+                        <span class="nyxw_span">近期热门</span>
+                    </p>
+                    <div id="recenthot">
+                        <!--放template底下的newscontent中的recenthot.html-->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--左侧内容-->
+        <div class="left articlerelated" style="display: none;">
+            <!--我要评论-->
+            <div class="wantrevies mgt30">
+                <p class="nyxw">
+                    <img src="/web/resource/images/title.png" alt="" class="nyxw_img">
+                    <span class="nyxw_span">我要评论</span>
+                </p>
+                <div class="writerevies">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="我有话要说..." class="addrevies"></textarea>
+                    <p class="clearf mg10px">
+                        <button class="right addrevies_btn" onclick="addNewComment()">发表评论</button>
+                    </p>
+                </div>
+            </div>
+            <!--热门评论-->
+            <div class="hotcomments mg10px">
+                <p class="nyxw">
+                    <img src="/web/resource/images/title.png" alt="" class="nyxw_img">
+                    <span class="nyxw_span">热门评论</span>
+                </p>
+                <div class="nocomment mg10px hidden">暂无评论</div>
+                <!--热门评论列表-->
+                <ul class="rmpl">
+                </ul>
+                <div class="load_more">
+                    <p>继续加载...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部-->
+<div class="footer">
+    
+</div>
+
+<script src="/web/resource/js/currentshow.js"></script>
+<!--<script src="/web/resource/js/comment.js"></script>-->
+<script src="/web/resource/js/content.js"></script>
+<script>
+    $(function () {
+        var articletype = "1";
+        if(articletype == 2){
+            $(".contentwrap .articlerelated").css("width","100%");
+            $(".contentwrap .articleabout").hide();
+        }
+    })
+    /*稿件统计*/
+    $(function(){
+        var contentId = "981677337664172032";
+        var query = getQueryVariable("platform");
+        var whereopen ;
+        if(query == "Android"){
+            whereopen = 2;
+        }
+        else if(query == "iOS"){
+            whereopen = 3;
+        }
+        else{
+            if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){
+                whereopen = 1
+            }
+            else{
+                whereopen = 0
+            }
+        }
+        statistic(contentId,whereopen);
+    })
+    function statistic(contentId,platform) {
+        $.ajax({
+            type:'post',
+            data: {'recordContentId': contentId, 'recordPlatform': platform}, //向后台传参
+            url :"//dsms.offshoremedia.net/api/dsms/common/direct/save",
+            success:function () {},
+            error:function () {}
+        })
+        $.ajax({
+            type:'get',
+            url :"//cms.offshoremedia.net/front/detail/click/"+contentId,
+            success:function () {},
+            error:function () {}
+        })
+    }
+    function getQueryVariable(variable){
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i=0;i<vars.length;i++) {
+            var pair = vars[i].split("=");
+            if(pair[0] == variable){return pair[1];}
+        }
+        return(false);
+    }
+</script>
+
+</body>
+</html>

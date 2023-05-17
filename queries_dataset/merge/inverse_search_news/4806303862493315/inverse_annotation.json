@@ -1,0 +1,99 @@
+{
+  "entities": [
+    "Dianbai District",
+    "热带风暴马翁",
+    "登陆",
+    "台风",
+    "暴雨",
+    "气象站",
+    "风",
+    "热带气旋",
+    "热带低气压",
+    "天气"
+  ],
+  "entities_scores": [
+    1.156154990196228,
+    1.113900065422058,
+    0.7174999713897705,
+    0.7053999900817871,
+    0.6769000291824341,
+    0.6435999870300293,
+    0.6007000207901001,
+    0.5435000061988831,
+    0.5426999926567078,
+    0.536899983882904
+  ],
+  "best_guess_lbl": [
+    "颱風 馬鞍"
+  ],
+  "all_fully_matched_captions": [
+    {
+      "page_link": "https://m.nbd.com.cn/articles/2022-08-25/2427981.html",
+      "image_link": "https://tmp-file-1252627319.cos.ap-shanghai.myqcloud.com//gov_img/2022/8/25/243860959008906240.gov_img/2022/8/25/1100797980109040640.png",
+      "title": "风大雨急！台风“马鞍”在广东登陆，最大风力12级！港交所上午暂停交易，港珠澳大桥暂停通行 | 每日经济新闻",
+      "caption": {
+        "alt_node": "1100797980109040640.png"
+      },
+      "html_path": "inverse_search_news/16879.html"
+    }
+  ],
+  "all_partially_matched_captions": [],
+  "partially_matched_no_text": [
+    {
+      "page_link": "http://www.stdaily.com/index/kejixinwen/202208/2085171196114601af0262495349ddcd.shtml",
+      "image_link": "http://stdaily.com/index//kejixinwen/202208/2085171196114601af0262495349ddcd/images/e4b1ffb688e74e67948b9ac5d934efa2.jpg",
+      "html_path": "inverse_search_news/16871.html",
+      "title": "又登广东！台风“马鞍”登陆广东电白 4省区风大雨急-中国科技网"
+    },
+    {
+      "page_link": "https://china.huanqiu.com/article/49NhuHFrtvH",
+      "image_link": "https://rs1.huanqiucdn.cn/dp/api/files/imageDir/4deab05da50e48fafe04926f98abb835.png",
+      "html_path": "inverse_search_news/16873.html",
+      "title": "台风“马鞍”登陆！多地停课停工停产停运"
+    },
+    {
+      "page_link": "https://china.huanqiu.com/article/49NkHpn1VAI",
+      "image_link": "https://rs1.huanqiucdn.cn/dp/api/files/imageDir/4818d8cc8b90d74b4672579c641c7aaa.png",
+      "html_path": "inverse_search_news/16874.html",
+      "title": "台风“马鞍”登陆！多地停课停工停产停运​"
+    },
+    {
+      "page_link": "https://www.jwview.com/jingwei/html/m/08-25/500539.shtml",
+      "image_link": "https://www.jwview.com/jingwei/08-25/U859P902T1D500539F10DT20220825112623.jpg",
+      "html_path": "inverse_search_news/16876.html",
+      "title": "台风“马鞍”登陆！海口调整采样时间，广州部分列车恢复"
+    },
+    {
+      "page_link": "https://china.huanqiu.com/article/49NiwUSPMCU",
+      "image_link": "https://rs1.huanqiucdn.cn/dp/api/files/imageDir/b5ddb20221ca146f77d8d5670aff32a8.png",
+      "html_path": "inverse_search_news/16878.html",
+      "title": "台风“马鞍”在茂名电白沿海登陆，气象部门释疑为何广州风大雨小"
+    }
+  ],
+  "fully_matched_no_text": [
+    {
+      "page_link": "http://www.sohu.com/a/579678312_116237",
+      "image_link": "https://p9.itc.cn/q_70/images03/20220825/763e55c7c9654d87bd2565fa9d3a4721.jpeg",
+      "html_path": "inverse_search_news/16872.html",
+      "title": "台风“马鞍”在广东电白沿海登陆 登陆时中心附近最大风力12级_中央气象台_消息_米/秒"
+    },
+    {
+      "page_link": "https://china.huanqiu.com/article/49NoFos3nps",
+      "image_link": "https://rs1.huanqiucdn.cn/dp/api/files/imageDir/2d50a46af23e5cc454f1367b62f021ba.png",
+      "html_path": "inverse_search_news/16875.html",
+      "title": "台风“马鞍”已登陆！4省区风大雨急！这些地区有特大暴雨，最大风力12级"
+    },
+    {
+      "page_link": "https://china.huanqiu.com/article/49NoLBxyjfU",
+      "image_link": "https://rs1.huanqiucdn.cn/dp/api/files/imageDir/f7a37b9623711cd674f1324caa82a029.png",
+      "html_path": "inverse_search_news/16877.html",
+      "title": "台风“马鞍”已登陆！4省区风大雨急！这些地区有特大暴雨，最大风力12级"
+    },
+    {
+      "page_link": "https://www.zhihu.com/question/549892322",
+      "image_link": "https://pic4.zhimg.com/v2-136680bcfeb80de169fd94160107da1b_b.png",
+      "html_path": "inverse_search_news/16880.html",
+      "title": "台风「马鞍」已在广东电白沿海登陆，中心附近最大风力 12 级，目前当地情况如何？ - 知乎"
+    }
+  ]
+}

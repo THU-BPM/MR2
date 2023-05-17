@@ -1,0 +1,672 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="description" content=""> 
+  <meta name="keywords" content=""> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <!-- Set render engine for 360 browser --> 
+  <meta name="renderer" content="webkit"> 
+  <!-- No Baidu Siteapp--> 
+  <meta http-equiv="Cache-Control" content="no-siteapp"> 
+  <link rel="shortcut icon" href="/static/commons/img/favicon.ico" type="image/x-icon"> 
+  <title>四川芦山6.1级地震 中国红十字基金会紧急救灾响应</title> 
+  <link rel="stylesheet" href="/templates/crcf/css/amazeui.css"> 
+  <link rel="stylesheet" href="/templates/crcf/css/reset.css"> 
+  <!-- <link rel="stylesheet" href="/templates/crcf/css/mui.min.css">
+    <script type="text/javascript" src="/templates/crcf/js/mui.js"></script> --> 
+ </head>
+ <body class="r-index">
+  <input type="hidden" name="serverPath" id="serverPath" value=""> 
+  <title></title> 
+  <link rel="stylesheet" href="/templates/crcf/css/detail.css">  
+  <style>
+@media only screen and (max-width: 640px) {
+  /**
+   * Break strings if their length exceeds the width of their container
+   */
+  body {
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
+  img {
+  	max-width: 98%;
+  	width: auto;
+  	height: auto;
+  }
+}
+</style>  
+  <!-- nav start--> 
+  <!--[if lte IE 9 ]>
+<div class="am-alert am-alert-danger ie-warning" data-am-alert>
+    <button type="button" class="am-close">&times;</button>
+    <div class="am-container">
+        365 安全卫士提醒：你的浏览器太古董了<a
+            href="http://browsehappy.com/" target="_blank">速速点击换一个</a>！</div></div>
+<![endif]--> 
+  <div class="am-topbar am-topbar-fixed-top"> 
+   <div id="rMeanTop" class="am-container"> 
+    <div class="am-header"> 
+     <div id="rMean" class="am-topbar-left r-mean"> 
+      <span class="r-icon-mean"></span> 
+     </div> 
+     <h1 class="am-topbar-brand"> <a href="/" class="am-text-ir"></a> </h1> 
+     <div class="btn_container"> 
+      <div class="row"> 
+       <div class="am-topbar-right"> 
+        <!--                         <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm r-login-btn" id="loginIn">登录</button>
+                        --> 
+        <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm r-login-btn">登录</button> 
+       </div> 
+       <div class="am-topbar-right"> 
+        <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm" id="toSearch">查询</button> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="am-topbar-right"> 
+        <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm" id="toDonate">捐赠</button> 
+       </div> 
+       <div class="am-topbar-right"> 
+        <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm" id="toHelp">求助</button> 
+       </div> 
+      </div> 
+      <div class="am-topbar-right am-u-lg-3 am-u-sm-12 r-topbar-search"> 
+       <form action="/article/pageSearch" method="post" class="am-form am-form-inline"> 
+        <div class="am-form-group"> 
+         <input type="text" name="keyword" class="am-form-field am-radius" placeholder="搜索"> 
+        </div> 
+        <div class="am-form-group"> 
+         <button type="submit" class="am-btn r-search"> <i class="r-icon-search"></i> </button> 
+        </div> 
+       </form> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="leftNav" class="am-offcanvas r-left-nav am-actvie"> 
+   <!-- 一级菜单 --> 
+   <div id="leftNavCon" class="am-offcanvas-bar"> 
+    <ul id="rNavMain"> 
+     <li class="r-icon-rights"><a href="/article/category/about" target="_blank">关于我们</a></li> 
+     <li class="r-icon-rights"><a href="/article/category/xiangmu" target="_self">我们的项目</a></li> 
+     <li><a href="/article/category/woyaoqiuzhu" target="_blank">我要求助</a></li> 
+     <li><a href="/article/category/woyaojuanzhu" target="_blank">我要捐赠</a></li> 
+     <li><a href="/article/category/woyaochaxun" target="_blank">我要查询</a></li> 
+     <li class="r-icon-rights"><a href="/article/category/xinxipilou" target="_blank">信息披露</a></li> 
+     <li class="r-icon-rights"><a href="/article/category/womendehuoban" target="_blank">我们的伙伴</a></li> 
+     <li class="r-icon-rights"><a href="/article/category/addus" target="_blank">加入我们</a></li> 
+    </ul> 
+   </div> 
+   <!-- 二级菜单 --> 
+   <!-- 如果二级菜单不为为空 --> 
+   <div class="r-nav-slide"> 
+    <ul> 
+     <li class="r-icon-rights"> <a href="/article/category/about_jigoujianjie" target="_blank">机构简介</a> 
+      <div class="r-nav-slide2"> 
+       <ul> 
+        <li><a href="/article/category/about_jigoujianjie_rendaojishi" target="_self">机构简介</a></li> 
+        <li><a href="/article/category/about_jigoujianjie_jigouzizhi" target="_self">机构资质</a></li> 
+        <li><a href="/article/category/about_jigoujianjie_rongyujiangxiang" target="_self">荣誉奖项</a></li> 
+       </ul> 
+      </div> </li> 
+     <li class="r-icon-rights"> <a href="/article/category/about_zhiduguifan" target="_blank">制度规范</a> 
+      <div class="r-nav-slide2"> 
+       <ul> 
+        <li><a href="/article/category/about_zhiduguifan_jigouguizhang" target="_blank">机构规章制度</a></li> 
+        <li><a href="/article/category/about_zhiduguifan_zhangcheng" target="_blank">章程</a></li> 
+       </ul> 
+      </div> </li> 
+     <li><a href="/article/category/about_lishihui" target="_blank">理事会</a></li> 
+     <li><a href="/article/category/about_zuzhijiagou" target="_blank">组织架构</a></li> 
+     <li><a href="/article/category/about_team" target="_blank">我们的团队</a></li> 
+     <li><a href="/article/category/about_dangdejianshe" target="_blank">党群建设</a></li> 
+     <li><a href="/article/category/about_mianshuizige" target="_blank">免税资格</a></li> 
+     <li><a href="/article/category/about_dashiji" target="_blank">大事记</a></li> 
+     <li class="r-icon-rights"> <a href="/article/category/about_kanwu" target="_self">刊物</a> 
+      <div class="r-nav-slide2"> 
+       <ul> 
+        <li><a href="/article/category/about_kanwu_hongzazhi" target="_self">红杂志</a></li> 
+        <li><a href="/article/category/about_kanwu_hongbaogao" target="_self">红报告</a></li> 
+       </ul> 
+      </div> </li> 
+     <li><a href="/article/category/about_us" target="_blank">联系我们</a></li> 
+    </ul> 
+   </div> 
+   <!-- 如果二级菜单不为为空 --> 
+   <div class="r-nav-slide"> 
+    <ul> 
+     <li><a href="/article/category/xiangmu_yiliaojiuzhu" target="_blank">医疗救助</a></li> 
+     <li><a href="/article/category/xiangmu_jiankangganyu" target="_self">健康干预</a></li> 
+     <li><a href="/article/category/xiangmu_zhenjijiuzai" target="_blank">赈济救灾</a></li> 
+     <li><a href="/article/category/xiangmu_shehuifazhan" target="_blank">社区发展</a></li> 
+     <li><a href="/article/category/xiangmu_jiaoyucujin" target="_blank">教育促进</a></li> 
+     <li><a href="/article/category/xiangmu_guojiyuanzhu" target="_blank">国际援助</a></li> 
+     <li><a href="/article/category/xiangmu_gongyichangdao" target="_blank">公益倡导&amp;人道传播</a></li> 
+     <li><a href="/article/category/xiangmu_guojixueyuan" target="_self">红十字国际学院</a></li> 
+    </ul> 
+   </div> 
+   <!-- 如果二级菜单为空 --> 
+   <div class="r-nav-slide"> 
+    <ul></ul> 
+   </div> 
+   <!-- 如果二级菜单为空 --> 
+   <div class="r-nav-slide"> 
+    <ul></ul> 
+   </div> 
+   <!-- 如果二级菜单为空 --> 
+   <div class="r-nav-slide"> 
+    <ul></ul> 
+   </div> 
+   <!-- 如果二级菜单不为为空 --> 
+   <div class="r-nav-slide"> 
+    <ul> 
+     <li><a href="/article/category/xinxipilou_zhidu" target="_blank">信息披露制度</a></li> 
+     <li><a href="/article/category/xinxipilou_jigounianbao" target="_blank">机构年报</a></li> 
+     <li><a href="/article/category/xinxipilou_nianjianbaogao" target="_blank">年检报告</a></li> 
+     <li><a href="/article/category/xinxipilou_shenjibaogao" target="_blank">审计报告</a></li> 
+     <li><a href="/article/category/xinxipilou_pinggubaogao" target="_blank">评估报告</a></li> 
+     <li><a href="/article/category/xinxipilou_jiandujianbao" target="_blank">监督简报</a></li> 
+     <li><a href="/article/category/xinxipilou_lishijianshibiandong" target="_blank">理事/监事变动</a></li> 
+    </ul> 
+   </div> 
+   <!-- 如果二级菜单不为为空 --> 
+   <div class="r-nav-slide"> 
+    <ul> 
+     <li><a href="/article/category/womendehuoban_hezuoqiye" target="_self">合作企业</a></li> 
+     <li><a href="/article/category/womendehuoban_meitihuoban" target="_self">媒体伙伴</a></li> 
+     <li><a href="/article/category/womendehuoban_yanjiujigou" target="_self">研究机构</a></li> 
+     <li><a href="/article/category/womendehuoban_falvzhichijigou" target="_self">法律支持机构</a></li> 
+     <li><a href="/article/category/womendehuoban_dingdianyiyuan" target="_self">定点医院</a></li> 
+    </ul> 
+   </div> 
+   <!-- 如果二级菜单不为为空 --> 
+   <div class="r-nav-slide"> 
+    <ul> 
+     <li><a href="/article/category/addus_rencaizhaopin" target="_blank">人才招聘</a></li> 
+     <li><a href="/article/category/addus_zhiyuanfuwu" target="_blank">志愿服务</a></li> 
+    </ul> 
+   </div> 
+  </div> 
+  <!-- nav end--> 
+  <!--about meam s --> 
+  <!-- 3级导航 start --> 
+  <div class="am-g r-menu-con"> 
+   <div class="am-container"> 
+    <nav data-am-widget="menu" class="am-menu am-menu-default r-menu"> 
+     <a href="javascript: void(0)" class="am-menu-toggle"> <i class="am-menu-toggle-icon am-icon-bars"></i> </a> 
+     <!-- 三级菜单 s   --> 
+     <ul id="rMenu3" class=" r-menu-nav3 am-menu-nav am-avg-sm-3"> 
+      <!-- 类样式 r-menu-nav3-more 三角箭头  am-open 选中样式 --> 
+      <li class="am-parent "> <a href="/article/category/about_jigoujianjie">机构简介</a> 
+       <ul class=" r-menu-nav4 am-menu-sub am-collapse "> 
+        <li class="am-parent "><a href="/article/category/about_jigoujianjie_rendaojishi" class="">机构简介</a></li> 
+        <li class="am-parent "><a href="/article/category/about_jigoujianjie_jigouzizhi" class="">机构资质</a></li> 
+        <li class="am-parent "><a href="/article/category/about_jigoujianjie_rongyujiangxiang" class="">荣誉奖项</a></li> 
+       </ul> </li> 
+      <li class="am-parent "> <a href="/article/category/about_zhiduguifan">制度规范</a> 
+       <ul class=" r-menu-nav4 am-menu-sub am-collapse "> 
+        <li class="am-parent "><a href="/article/category/about_zhiduguifan_jigouguizhang" class="">机构规章制度</a></li> 
+        <li class="am-parent "><a href="/article/category/about_zhiduguifan_zhangcheng" class="">章程</a></li> 
+       </ul> </li> 
+      <li class="am-parent "> <a href="/article/category/about_lishihui">理事会</a> </li> 
+      <li class="am-parent "> <a href="/article/category/about_zuzhijiagou">组织架构</a> </li> 
+      <li class="am-parent "> <a href="/article/category/about_team">我们的团队</a> </li> 
+      <li class="am-parent "> <a href="/article/category/about_dangdejianshe">党群建设</a> </li> 
+      <li class="am-parent "> <a href="/article/category/about_mianshuizige">免税资格</a> </li> 
+      <li class="am-parent "> <a href="/article/category/about_dashiji">大事记</a> </li> 
+      <li class="am-parent "> <a href="/article/category/about_kanwu">刊物</a> 
+       <ul class=" r-menu-nav4 am-menu-sub am-collapse "> 
+        <li class="am-parent "><a href="/article/category/about_kanwu_hongzazhi" class="">红杂志</a></li> 
+        <li class="am-parent "><a href="/article/category/about_kanwu_hongbaogao" class="">红报告</a></li> 
+       </ul> </li> 
+      <li class="am-parent "> <a href="/article/category/about_us">联系我们</a> </li> 
+     </ul> 
+     <!-- 三级菜单 e --> 
+    </nav> 
+   </div> 
+  </div> 
+  <!-- 3级导航 end --> 
+  <!-- about meam e --> 
+  <div class="am-container r_detail_page"> 
+   <ol class="am-breadcrumb"> 
+    <li><span class="r-breadcrumb-tips">您所在的位置</span><a href="/">返回首页</a></li> 
+    <li><a href="/article/category/xinwenzhongxin">新闻中心</a></li> 
+    <li><a href="/article/category/xinwenzhongxin_rendaojishi">人道纪实</a></li> 
+    <li class="am-active">四川芦山6.1级地震 中国红十字基金会紧急救灾响应</li> 
+   </ol> 
+   <div class="am-g"> 
+    <div class="r_detail r_detail_l"> 
+     <div class="r_detail_title"> 
+      <h3>四川芦山6.1级地震 中国红十字基金会紧急救灾响应</h3> 
+      <p class="r_detail_title_date"> 2022-06-01 </p> 
+     </div> 
+     <div class="r_detail_body"> 
+      <p style="text-align:justify">6月1日17时00分，四川雅安市芦山县发生6.1级地震；17时03分，雅安市宝兴县发生4.5级地震。截至19时40分，地震造成芦山县、宝兴县部分乡镇受灾。中国红十字会总会启动三级应急响应，四川省红十字会已赴现场处置。灾区一线情况牵动人心，中国红十字基金会迅速响应灾情，紧急启动调配“赈济家庭箱”等应急物资驰援芦山地震灾区，让灾后应急保障第一时间抵达灾区。愿平安！</p> 
+      <p style="text-align:justify">雅安市红十字会启动二级响应，紧急调拨库存帐篷200顶、折叠床400张、冲锋衣1000件、棉被2300床、赈济家庭包500个等应急救援物资运抵芦山县芦山中学、太平中学和当地受灾安置点。雅安市红会奔赴芦山县太平镇，现场组织发放和搭建帐篷等。雅安发往芦山的4车红十字救援物资已经启运。第一车棉被到达太平中学安置点。</p> 
+      <p style="text-align:center"><img alt="" src="https://pic.crcf.org.cn/attachment/20220601/5dfcd10408934051ab691c692054fbcf.jpg" style="width:600px"></p> 
+      <p style="text-align:center"><img alt="" src="https://pic.crcf.org.cn/attachment/20220602/9584a1c0aa7448c4adb333f206b1f5f1.jpg" style="width:600px"></p> 
+      <p style="text-align:center"><img alt="" src="https://pic.crcf.org.cn/attachment/20220602/51bc5da107a94778923b83f4590a5553.jpg" style="width:600px"></p> 
+      <p style="text-align:center"><img alt="" src="https://pic.crcf.org.cn/attachment/20220602/957bacb602ad49f0b4b680c208a84993.jpg" style="width:600px"></p> 
+      <p style="text-align:center"><img alt="" src="https://pic.crcf.org.cn/attachment/20220602/1315248472134cc385eb29cea86eae53.jpg" style="width:600px"></p> 
+      <p style="text-align:center"><img alt="" src="https://pic.crcf.org.cn/attachment/20220601/7c626be62a83416eb8588944d54bed05.jpg" style="width:600px"></p> 
+      <!-- <p class="luokuan">北京市财政局 国家税务总局北京市税务局<br> 2019年2月11日</p> --> 
+     </div> 
+     <div class="r_detail_footer" style="display:none;"> 
+      <!-- <p>
+                            <a>企业所得税优惠事项管理目录（2017年版）</a>
+                            <span class="r_detail_down"></span>
+                        </p> --> 
+      <div class="r_detaill_share">
+        分享到: 
+       <img src="/templates/crcf/img/wx.png"> 
+       <img class="qq_icon" src="/templates/crcf/img/qq.png"> 
+       <img src="/templates/crcf/img/wb.png"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="r_detail r_detail_r"> 
+     <h5>相关资讯</h5> 
+     <ul> 
+      <li> <a href="/article/22701" target="_blank"><p>石棉县“9·5”泸定地震新乐村首个红十字安置点启用</p></a> <span class="r_detail_r_date"><img src="/templates/crcf/img/date_icon.png">2022-09-09</span> </li> 
+      <li> <a href="/article/22702" target="_blank"><p>雀巢旗下徐福记向中国红十字基金会捐赠12万余元物资驰援四川地震灾区</p></a> <span class="r_detail_r_date"><img src="/templates/crcf/img/date_icon.png">2022-09-09</span> </li> 
+      <li> <a href="/article/22703" target="_blank"><p>陈克明食品向中国红十字基金会捐赠物资驰援四川地震灾区</p></a> <span class="r_detail_r_date"><img src="/templates/crcf/img/date_icon.png">2022-09-09</span> </li> 
+     </ul> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- footer --> 
+  <script type="text/javascript" src="/templates/crcf/js/jquery.js"></script> 
+  <script type="text/javascript" src="/templates/crcf/js/amazeui.min.js"></script> 
+  <script type="text/javascript" src="/templates/crcf/js/nav.js"></script> 
+  <!-- bottom start --> 
+  <div class="r-bottom"> 
+   <div class="am-container am-g"> 
+    <ul class=""> 
+     <li class="am-u-lg-2 am-u-sm-4"><a href="/article/category/womendehuoban" target="_blank">人道伙伴</a></li> 
+     <li class="am-u-lg-2 am-u-sm-4"><a href="/article/category/womendehuoban_hezuoqiye" target="_blank">合作企业</a></li> 
+     <li class="am-u-lg-2 am-u-sm-4"><a href="/article/category/womendehuoban_meitihuoban" target="_blank">媒体伙伴</a></li> 
+     <li class="am-u-lg-2 am-u-sm-4"><a href="/article/category/womendehuoban_yanjiujigou" target="_blank">研究机构</a></li> 
+     <li class="am-u-lg-2 am-u-sm-4"><a href="/article/category/womendehuoban_falvzhichijigou" target="_blank">法律支持机构</a></li> 
+     <li class="am-u-lg-2 am-u-sm-4"><a href="/article/category/womendehuoban_dingdianyiyuan" target="_blank">定点医院</a></li> 
+    </ul> 
+   </div> 
+  </div> 
+  <!-- bottom end --> 
+  <div id="amz-toolbar" data-am-widget="gotop" class="am-gotop am-gotop-fixed"> 
+   <a href="#top" title="回到顶部"> <span class="am-gotop-title">回到顶部</span> <i class="am-gotop-icon am-icon-chevron-up"></i> </a> 
+  </div> 
+  <div class="r-footer"> 
+   <div class="footertop am-g"> 
+    <div class="am-container"> 
+     <!-- 此处可直接遍历菜单，是因为菜单被templateInterceptor controller.setAttr() --> 
+     <ul class="r-f-partner am-u-lg-2 am-u-sm-6"> 
+      <li> <a href="/article/category/about" target="_blank"> <h4>关于我们</h4> </a> <span><a href="/article/category/about_jigoujianjie" target="_blank">机构简介</a></span> <span><a href="/article/category/about_zhiduguifan" target="_blank">制度规范</a></span> <span><a href="/article/category/about_lishihui" target="_blank">理事会</a></span> <span><a href="/article/category/about_zuzhijiagou" target="_blank">组织架构</a></span> <span><a href="/article/category/about_team" target="_blank">我们的团队</a></span> <span><a href="/article/category/about_dangdejianshe" target="_blank">党群建设</a></span> <span><a href="/article/category/about_mianshuizige" target="_blank">免税资格</a></span> <span><a href="/article/category/about_dashiji" target="_blank">大事记</a></span> <span><a href="/article/category/about_kanwu" target="_self">刊物</a></span> <span><a href="/article/category/about_us" target="_blank">联系我们</a></span> </li> 
+     </ul> 
+     <ul class="r-f-partner am-u-lg-2 am-u-sm-6"> 
+      <li> <a href="/article/category/xiangmu" target="_self"> <h4>我们的项目</h4> </a> <span><a href="/article/category/xiangmu_yiliaojiuzhu" target="_blank">医疗救助</a></span> <span><a href="/article/category/xiangmu_jiankangganyu" target="_self">健康干预</a></span> <span><a href="/article/category/xiangmu_zhenjijiuzai" target="_blank">赈济救灾</a></span> <span><a href="/article/category/xiangmu_shehuifazhan" target="_blank">社区发展</a></span> <span><a href="/article/category/xiangmu_jiaoyucujin" target="_blank">教育促进</a></span> <span><a href="/article/category/xiangmu_guojiyuanzhu" target="_blank">国际援助</a></span> <span><a href="/article/category/xiangmu_gongyichangdao" target="_blank">公益倡导&amp;人道传播</a></span> <span><a href="/article/category/xiangmu_guojixueyuan" target="_self">红十字国际学院</a></span> </li> 
+     </ul> 
+     <ul class="r-f-partner am-u-lg-2 am-u-sm-6"> 
+      <li> <a href="/article/category/xinxipilou" target="_blank"> <h4>信息披露</h4> </a> <span><a href="/article/category/xinxipilou_zhidu" target="_blank">信息披露制度</a></span> <span><a href="/article/category/xinxipilou_jigounianbao" target="_blank">机构年报</a></span> <span><a href="/article/category/xinxipilou_nianjianbaogao" target="_blank">年检报告</a></span> <span><a href="/article/category/xinxipilou_shenjibaogao" target="_blank">审计报告</a></span> <span><a href="/article/category/xinxipilou_pinggubaogao" target="_blank">评估报告</a></span> <span><a href="/article/category/xinxipilou_jiandujianbao" target="_blank">监督简报</a></span> <span><a href="/article/category/xinxipilou_lishijianshibiandong" target="_blank">理事/监事变动</a></span> </li> 
+     </ul> 
+     <ul class="r-f-partner am-u-lg-2 am-u-sm-6"> 
+      <li> <a href="/article/category/womendehuoban" target="_blank"> <h4>我们的伙伴</h4> </a> <span><a href="/article/category/womendehuoban_hezuoqiye" target="_self">合作企业</a></span> <span><a href="/article/category/womendehuoban_meitihuoban" target="_self">媒体伙伴</a></span> <span><a href="/article/category/womendehuoban_yanjiujigou" target="_self">研究机构</a></span> <span><a href="/article/category/womendehuoban_falvzhichijigou" target="_self">法律支持机构</a></span> <span><a href="/article/category/womendehuoban_dingdianyiyuan" target="_self">定点医院</a></span> </li> 
+     </ul> 
+     <ul class="r-f-partner am-u-lg-2 am-u-sm-6"> 
+      <li> <a href="/article/category/addus" target="_blank"> <h4>加入我们</h4> </a> <span><a href="/article/category/addus_rencaizhaopin" target="_blank">人才招聘</a></span> <span><a href="/article/category/addus_zhiyuanfuwu" target="_blank">志愿服务</a></span> </li> 
+     </ul> 
+     <ul class="r-f-partner am-u-lg-2 am-u-sm-12"> 
+      <li class="r-ewm"> 
+       <div class="chatimg" style="margin-left: 0px; margin-right: 10px;"> 
+        <img src="http://crcf-website-photo.oss-cn-beijing.aliyuncs.com/attachment/20191128/b239d4b72abb4fe78855779bca836cf4.jpg" width="100%" style="width:82px;height:82px;"> 
+        <p>官方微信</p> 
+       </div> 
+       <div class="chatimg" style="margin-left: 0px; margin-right: 10px;"> 
+        <img src="http://crcf-website-photo.oss-cn-beijing.aliyuncs.com/attachment/20191128/d4f0ca10dfb043e68af63e7b73cd2d91.jpg" width="100%" style="width:82px;height:82px;"> 
+        <p>官方微博</p> 
+       </div> </li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="footer-bottom" style="height: 70px;"> 
+    <div class="am-container " style="text-align: center;"> 
+     <span>地址:北京市东城区东单北大街干面胡同53号&nbsp;</span> 
+     <span>电话:010-85594999,010-65124154&nbsp;</span> 
+     <span>人道救助热线:010-999(24小时求助咨询)&nbsp;</span> 
+     <!--<span>中国红行动《健康之路》公益服务热线：010-69807999&nbsp;</span>--> 
+    </div> 
+    <div style="text-align: center; height: 20px; line-height: 20px;"> 
+     <span class="r-min-m10"> <span> 版权所有 中国红十字基金会&nbsp;</span> <span><a style="color:#999999" href="https://beian.miit.gov.cn">京ICP备12043486号-1&nbsp;</a></span> <span class="r-in-b"><img src="/templates/crcf/img/ga.png">京公网安备11010102001751号&nbsp;</span> </span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- register&login --> 
+  <style>
+#loginForm input::-webkit-input-placeholder{
+    color:  #c1c1c1;
+    font-size:13px;
+    font-weight: 200;
+}
+#loginForm input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color: #c1c1c1;
+	font-size:13px;
+	font-weight: 200;
+}
+#loginForm input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:  #c1c1c1;
+	font-size:13px;
+	font-weight: 200;
+}
+#loginForm input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+    color: #c1c1c1;
+	font-size:13px;
+	font-weight: 200;
+}
+.l_input{
+	text-indent: 10px;
+	border-radius: 3px; 
+	border: 1px solid rgba(223, 223, 223, 1); 
+}
+.l_input_yzm{
+	text-indent: 10px;
+	border-top-left-radius: 3px; 
+	border-bottom-left-radius: 3px;
+	border: 1px solid rgba(223, 223, 223, 1); 
+}
+.l_img_yzm{
+	height: 30px;
+	width:65px;
+}
+.l_span{
+	width: 185px; 
+	display: inline-block; 
+	text-align: center;
+}
+.l_div_r{
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+	margin: 5px 10px 10px 25px;
+}
+.l_div_r_span{
+	display: inline-block;
+	cursor: pointer;
+}
+.l_div_r_span:hover{
+	color: #D71518;
+}
+.l_div_r_span_l{
+	float: left;
+}
+.l_div_r_span_r{
+	float: right;
+}
+.l_sms_s{
+	width: 95px; 
+	display: inline-block; 
+	text-align: center;
+}
+</style> 
+  <!-- 登录弹框 --> 
+  <div class="am-modal am-modal-no-btn" id="loginDiv"> 
+   <div class="am-modal-dialog"> 
+    <div class="am-modal-hd" style="text-align:center;"> 
+     <img src="/templates/crcf/img/logo.png" style="width:160px;"> 
+     <span id="title"></span> 
+     <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>×</a> 
+    </div> 
+    <div class="am-modal-bd r_modal"> 
+     <div class="s_h"></div> 
+     <form id="loginForm" action="/user/doLogin" method="post"> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="text" name="phone" class="l_input" style="width:190px; height:32px;" placeholder="请输入手机号"> 
+      </div> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="password" name="pwd" class="l_input" style="margin-left: 15px;width:190px; height:32px;" placeholder="请输入密码"> 
+      </div> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="text" name="captcha" class="l_input_yzm" style="width: 120px;height:32px;" placeholder="请输入验证码" maxlength="4"> 
+       <img src="/commons/captcha" class="l_img_yzm" onclick="this.src='/commons/captcha?d='+Math.random();" name="captchaimg"> 
+      </div> 
+     </form> 
+     <div class="r_m_f"> 
+      <span id="userLogin" class="l_span" style="padding: 0px 26px;margin-left: 13px;border-color: #d71518;background: #D71518;color: #fff;">登录 </span> 
+     </div> 
+     <div class="l_div_r"> 
+      <span id="registerBtn" class="l_div_r_span l_div_r_span_l">注册</span> 
+      <span id="forgetPwdBtn" class="l_div_r_span l_div_r_span_r">忘记密码</span> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 注册弹框 --> 
+  <div class="am-modal am-modal-no-btn" id="registerDiv"> 
+   <div class="am-modal-dialog"> 
+    <div class="am-modal-hd" style="text-align:center;"> 
+     <img src="/templates/crcf/img/logo.png" style="width:160px;"> 
+     <span id="title"></span> 
+     <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>×</a> 
+    </div> 
+    <div class="am-modal-bd r_modal"> 
+     <div class="s_h"></div> 
+     <form id="registerForm" action="/user/doRegister" method="post"> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="text" name="username" class="l_input" style="width:190px; height:32px;" placeholder="请输入姓名"> 
+      </div> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="text" name="phone" class="l_input" style="width:190px; height:32px;" placeholder="请输入手机号"> 
+      </div> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="text" name="email" class="l_input" style="width:190px; height:32px;" placeholder="请输入邮箱"> 
+      </div> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="password" name="pwd" class="l_input" style="margin-left: 15px;width:190px; height:32px;" placeholder="请输入密码"> 
+      </div> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="password" name="confirmPwd" class="l_input" style="margin-left: 15px;width:190px; height:32px;" placeholder="请再次输入密码"> 
+      </div> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="text" name="captcha" class="l_input_yzm" style="width: 120px;height:32px;" placeholder="请输入验证码" maxlength="4"> 
+       <img src="/commons/captcha" class="l_img_yzm" onclick="this.src='/commons/captcha?d='+Math.random();" name="captchaimg"> 
+      </div> 
+      <div style="margin-bottom: -15px;color: #D71518;">
+       * 请先输入验证码获取短信验证码
+      </div> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="text" class="l_input_yzm" style="width: 95px;height:32px; " placeholder="短信验证码" name="sms_code"> 
+       <div class="r_m_f" style="display: inline-block;"> 
+        <span onclick="getRegisterSmsCode()" class="l_sms_s" style="padding: 0px 0px;margin-left: 0px; height: 32px;line-height: 28px;">发送短信验证码 </span> 
+       </div> 
+      </div> 
+     </form> 
+     <div class="r_m_f"> 
+      <span id="userRegisterBtn" class="l_span" style="padding: 0px 26px;margin-left: 13px;border-color: #d71518;background: #D71518;color: #fff;">注册 </span> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 重置密码 --> 
+  <div class="am-modal am-modal-no-btn" id="resetPwdDiv"> 
+   <div class="am-modal-dialog"> 
+    <div class="am-modal-hd" style="text-align:center;"> 
+     <img src="/templates/crcf/img/logo.png" style="width:160px;"> 
+     <span id="title"></span> 
+     <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>×</a> 
+    </div> 
+    <div class="am-modal-bd r_modal"> 
+     <div class="s_h"></div> 
+     <form id="resetForm" action="/user/doReset" method="post"> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="text" name="phone" class="l_input" style="width:190px; height:32px;" placeholder="请输入手机号"> 
+      </div> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="password" name="pwd" class="l_input" style="margin-left: 15px;width:190px; height:32px;" placeholder="请输入新密码"> 
+      </div> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="password" name="confirmPwd" class="l_input" style="margin-left: 15px;width:190px; height:32px;" placeholder="请再次输入新密码"> 
+      </div> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="text" name="captcha" class="l_input_yzm" style="width: 120px;height:32px;" placeholder="请输入验证码" maxlength="4"> 
+       <img src="/commons/captcha" class="l_img_yzm" onclick="this.src='/commons/captcha?d='+Math.random();" name="captchaimg"> 
+      </div> 
+      <div style="margin-bottom: -15px;color: #D71518;">
+       * 请先输入验证码获取短信验证码
+      </div> 
+      <div class="am-fl s_m_20 m-top" style="width:100%;"> 
+       <input type="text" class="l_input_yzm" style="width: 95px;height:32px;" placeholder="短信验证码" name="sms_code"> 
+       <div class="r_m_f" style="display: inline-block;"> 
+        <span onclick="getResetSmsCode()" class="l_sms_s" style="padding: 0px 0px;margin-left: 0px; height: 32px;line-height: 28px;">发送短信验证码 </span> 
+       </div> 
+      </div> 
+     </form> 
+     <div class="r_m_f"> 
+      <span id="resetPwdBtn" class="l_span" style="padding: 0px 26px;margin-left: 13px;border-color: #d71518;background: #D71518;color: #fff;">重置密码 </span> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script type="text/javascript" src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script> 
+  <link rel="stylesheet" href="/static/components/font-awesome/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="/static/components/ionicons/css/ionicons.min.css"> 
+  <script type="text/javascript" src="/templates/crcf/js/jquery-form.js"></script> 
+  <link rel="stylesheet" href="/templates/crcf/css/myAlert.css"> 
+  <script type="text/javascript" src="/templates/crcf/js/myAlert.js"></script> 
+  <script type="text/javascript">
+//确认登录
+$("#userLogin").click(function() {
+	$("#loginForm").ajaxSubmit({
+        type: "post",
+        success: function (result) {
+            if (result.state == "ok") {
+            	window.location.href = result.gotoUrl;
+            } else {
+            	$.myAlert(result.message);
+            }
+        },
+        error: function () {
+        	$.myAlert("登录失败");
+        }
+    });
+});
+
+//用户注册
+$("#registerBtn").click(function() {
+	$("#loginDiv").modal("close");
+	$("#resetPwdDiv").modal("close");
+	//刷新注册验证码
+	$("#registerForm input[name='captcha']").val("");
+	$("#registerForm img[name='captchaimg']").click();
+	$("#registerDiv").modal('toggle');
+});
+//确认注册
+$("#userRegisterBtn").click(function() {
+	$("#registerForm").ajaxSubmit({
+        type: "post",
+        success: function (result) {
+            if (result.state == "ok") {
+            	$.myAlert(result.message);
+            	//注册成功刷新登录验证码
+               	$("#loginForm input[name='captcha']").val("");
+               	$("#loginForm img[name='captchaimg']").attr("src", '/commons/captcha?d=' + Math.random())
+               	$.myAlert({
+            		title: '提示',
+            		message: '注册成功',
+            		callback: function(){
+            			$("#resetPwdDiv").modal("close");
+            	    	$("#registerDiv").modal('close');
+            	    	$("#loginDiv").modal("toggle");
+            		}
+            	});
+            } else {
+            	$.myAlert(result.message);
+            }
+        },
+        error: function () {
+        	$.myAlert("注册失败");
+        }
+    });
+});
+
+//忘记密码
+$("#forgetPwdBtn").click(function() {
+	$("#loginDiv").modal("close");
+	$("#registerDiv").modal('close');
+	//刷新重置密码验证码
+	$("#resetForm input[name='captcha']").val("");
+	$("#resetForm img[name='captchaimg']").click();
+	$("#resetPwdDiv").modal('toggle');
+});
+//重置密码
+$("#resetPwdBtn").click(function() {
+	$("#resetForm").ajaxSubmit({
+        type: "post",
+        success: function (result) {
+            if (result.state == "ok") {
+            	//注册成功刷新登录验证码
+               	$("#loginForm input[name='captcha']").val("");
+               	$("#loginForm img[name='captchaimg']").attr("src", '/commons/captcha?d=' + Math.random())
+            	$.myAlert({
+            		title: '提示',
+            		message: '重置密码成功',
+            		callback: function(){
+            			$("#resetPwdDiv").modal("close");
+                    	$("#registerDiv").modal('close');
+                    	$("#loginDiv").modal("toggle");
+            		}
+            	});
+            } else {
+            	$.myAlert(result.message);
+            }
+        },
+        error: function () {
+        	$.myAlert("重置密码失败");
+        }
+    });
+});
+
+//-------------------------------
+//获取注册验证码
+function getRegisterSmsCode() {
+	var phone = $("#registerForm input[name='phone']").val();
+	var captcha = $("#registerForm input[name='captcha']").val();
+    if (phone == '') {
+    	$.myAlert('手机号不能为空');
+        return;
+    }
+    if (captcha == '') {
+    	$.myAlert('验证码不能为空');
+        return;
+    }
+    $.post("/commons/getsmscode", {phone:phone, captcha:captcha, type:"register"}, function (result) {
+    	//$("#registerForm input[name='captcha']").val("");
+    	//$("#registerForm img[name='captchaimg']").attr("src", '/commons/captcha?d=' + Math.random())
+        $.myAlert(result.message);
+    });
+}
+//获取重置密码验证码
+function getResetSmsCode() {
+	var phone = $("#resetForm input[name='phone']").val();
+	var captcha = $("#resetForm input[name='captcha']").val();
+    if (phone == '') {
+    	$.myAlert('手机号不能为空');
+        return;
+    }
+    if (captcha == '') {
+    	$.myAlert('验证码不能为空');
+        return;
+    }
+    $.get("/commons/getsmscode", {phone:phone, captcha:captcha, type:"reset"}, function (result) {
+    	//$("#resetForm input[name='captcha']").val("");
+    	//$("#resetForm img[name='captchaimg']").attr("src", '/commons/captcha?d=' + Math.random())
+        $.myAlert(result.message);
+    });
+}
+</script>
+  <!-- register&login end --> 
+  <!-- footer end -->  
+ </body>
+</html>

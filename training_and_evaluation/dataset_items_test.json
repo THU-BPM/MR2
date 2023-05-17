@@ -1,0 +1,36 @@
+{
+    "430": {
+        "direct_path": "img_html/430",
+        "inv_path": "inverse_search/430",
+        "image_path": "img/430.jpg",
+        "caption": "海蓝 ：\"我想起当年《盲山》拍完后，村里人问剧组，可不可以把女演员送给他们。\"",
+        "label": 1
+      },
+      "4752708370698760": {
+        "direct_path": "img_html_random/4752708370698760",
+        "inv_path": "inverse_search_random/4752708370698760",
+        "image_path": "imgs_random/20220330_4752708370698760_1.jpg",
+        "caption": "画画画马上就到出门可以不穿厚外套的季节啦～ ",
+        "label": 2
+      },  
+      "4775631591839692": {
+        "direct_path": "img_html_news/4775631591839692",
+        "inv_path": "inverse_search_news/4775631591839692",
+        "image_path": "img_news/20220601_4775631591839692.jpg",
+        "caption": "据雅安市抗震救灾指挥部，截至18时30分，地震造成芦山县、宝兴县部分乡镇受灾，芦山县暂未收到人员伤亡情况报告，宝兴县1人死亡、1人重伤、5人轻伤。详细灾情正在进一步核实中。（人民日报记者王明峰）#四川多地震感强烈# ",
+        "label": 0
+      },"4806303862493315": {
+        "direct_path": "img_html_news/4806303862493315",
+        "inv_path": "inverse_search_news/4806303862493315",
+        "image_path": "img_news/20220825_4806303862493315.jpg",
+        "caption": "台风马鞍登陆中央气象台消息，10时30分前后，台风“马鞍”在广东电白沿海登陆。登陆时中心附近最大风力12级（33米/秒）。",
+        "label": 0
+      },    
+      "1159": {
+        "direct_path": "img_html/1159",
+        "inv_path": "inverse_search/1159",
+        "image_path": "img/1159.jpg",
+        "caption": "这是今天机场的周杰伦，有钱真好，可以全方位三百六十度无死角预防冠状病毒，此时我正在发愁年后的口罩什么时候寄到 ​ ",
+        "label": 1
+      }
+}

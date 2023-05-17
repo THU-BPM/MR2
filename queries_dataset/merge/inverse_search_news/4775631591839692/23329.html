@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><script src="https://lf3-search.searchpstatp.com/obj/unpkg/byted-ucenter/ttwid-js/3.0.1/dist/index.umd.production.js"></script></head>
+<body>
+<script>
+    var ttwidInstance = null;
+    var retryTime = 0;
+    var maxRetryTime = 2;
+    var tag = 'wid_ct';
+    function end() {
+        if (location.search.match(/__tmpdruidtestwid=1/)) {
+            return;
+        }
+        location.href = location.origin + location.pathname + '?' + tag + '=' + Date.now() + (location.search ? '&' + location.search.slice(1) : '');
+    }
+    function init() {
+        if (!TTWidInstance) {
+            return end();
+        }
+        if (!ttwidInstance) {
+            var config = {"aid":4916,"service":"so.toutiao.com","unionHost":"https://ttwid.bytedance.com","union":true,"needFid":false};
+            config.service = location.host;
+            ttwidInstance = new TTWidInstance(config);
+        }
+        ttwidInstance.registerUnionWebId({}, function (err, res) {
+            if (err || !res || res.status_code !== 0) {
+                if (retryTime < maxRetryTime) {
+                    retryTime++;
+                    return init();
+                }
+            }
+            end();
+        });
+    }
+    try {
+        init();
+    } catch (e) {
+        console.error(e);
+        end();
+    }
+</script>
+</body></html>
