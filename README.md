@@ -62,5 +62,10 @@ Each dataset is a folder under the ```./queries_dataset``` folder:
     └── inverse_search_random 
 
 ```
+`WEIBO`:https://drive.google.com/file/d/1tDQ5_DWQH7cyQ84fVTYiXEcr5va4_MIB/view?usp=drive_link
+
+`TWITTER`:https://drive.google.com/file/d/1-2_DhQWx8Cyh2MvtZeFkdfh31tuzTUDD/view?usp=drive_link
+
 ## Dataset Copyright
+
 Our datasets are open sourced for commercial and academic use and licensed under CC-BY-SA 4.0 license.
